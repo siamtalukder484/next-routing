@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+nav{
+    background-color: blueviolet;
+    padding: 15px 0;
+}
+.menu{
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.menu li a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.menu li .active{
+    color: red;
+}
+footer{
+    background-color: blueviolet;
+    padding: 15px 0;
+}
+.footer_wrapper p{
+    color: #fff;
+    text-align: center;
+}
