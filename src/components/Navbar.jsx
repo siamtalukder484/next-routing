@@ -4,19 +4,16 @@ import Link from 'next/link'
 import React from 'react'
 import { usePathname } from 'next/navigation'
 
-
-
 const Navbar = () => {
      
     const path = usePathname()
 
-    console.log(path);
 
   return (
     <nav>
         <div className="container">
             <ul className='menu'>
-                <li className={path === '/' ? 'active' : ''}>
+                <li>
                     <Link className={path === '/' ? 'active' : ''} href='/'>Home</Link>
                 </li>
                 <li>
@@ -27,6 +24,10 @@ const Navbar = () => {
                 </li>
                 <li>
                     <Link className={path === '/contact' ? 'active' : ''} href='/contact'>contact</Link>
+                </li>
+                <li>
+                    <Link className={path === '/login' ? 'active' : ''} href='/login'>login</Link>
+
                 </li>
             </ul>
         </div>
