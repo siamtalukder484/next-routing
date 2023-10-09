@@ -1,4 +1,5 @@
 
+import Footer from '@/components/dashboard/Footer'
 import Navbar from '@/components/dashboard/Navbar'
 import { Inter } from 'next/font/google'
 
@@ -18,7 +19,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Navbar/>
           {children}
-          <h1>This is dashboard footer</h1>
+        <Footer/>
       </body>
     </html>
     </>

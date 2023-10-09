@@ -2,7 +2,17 @@ import React from 'react'
 
 const service = () => {
   return (
-    <div>service page here</div>
+    <>
+      <section>
+        <div className="container">
+          <div className="service_wrapper">
+            <h1>
+              service page here
+            </h1>
+          </div>
+        </div>
+      </section>
+    </>
   )
 }
 

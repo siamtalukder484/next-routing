@@ -7,7 +7,7 @@ const Footer = () => {
     <footer>
       <div className="container">
         <div className="footer_wrapper">
-          <p>This my footer part</p>
+          <p>This main footer</p>
         </div>
       </div>
     </footer>

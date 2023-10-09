@@ -1,4 +1,12 @@
 nav{
-    background-color: blueviolet;
+    background-color: aqua;
     padding: 15px 0;
+}
+.menu li a{
+    color: #000;
+}
+
+.footer{
+    background-color: aquamarine;
+    margin-top: 50px;
 }
